@@ -15,15 +15,16 @@ const Form = () => {
     },[search]);
     return (
         <div className='form-component'>
-            <div className='form container'>
-                <form>
+            <div className='form-container'>
+                <form className='form'>
                     <input
+                    className='input-text'
                     type = "text"
                     placeholder='Entrez le titre de votre choix ici'
                     id = "search-input"
                     onChange={(e) => setSearch(e.target.value)}
                     />
-                    <input type="submit" value="Rechercher" />
+                    <input className='submit-search' type="submit" value="Rechercher" />
                 </form>
 
                 <div className='btn-sort-container'>
