@@ -1,12 +1,36 @@
-.header{
-    h1 {
-        font-size: 3.3rem;
-        text-align: center;
-        background-color: black;
-        
-    }
+h1 {
+    font-size: 3.3rem;
+    text-shadow: 2px 3px 0px $color-1;
+    text-align: center;
+    letter-spacing: 2px;
+  }
 
-    nav {
-        background-color: aqua;
-    }
+
+/* h2{
+    font-size: 2.2rem;
+    text-shadow: 2px 3px 0px $color-1;
+    text-align: center;
+    letter-spacing: 2px;      
+} */
+
+nav {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 1.3rem;
 }
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+    border-radius: 10px;
+    width: 102px;
+    text-align: center;
+    margin-right: 5px;
+    
+}
+

@@ -5,7 +5,7 @@ import '../Styles/Header.css'
 const Header = () => {
     return (
         <div className='header'>
-            <nav>
+            <nav className='nav'>
                 <ul>
                     <NavLink to="/" className={(nav) => (nav.isActive ? "nav-actuve": "" )}
                     >
@@ -20,7 +20,7 @@ const Header = () => {
             </nav>
 
             <h1>Trouvez tous les films de votre choix</h1>
-            <h2>Nouveaux films, anciens, classiques ...</h2>
+            {/* <h2>Nouveaux films, anciens, classiques ...</h2> */}
             
         </div>
     );
