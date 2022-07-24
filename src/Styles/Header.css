@@ -1,0 +1,12 @@
+.header{
+    h1 {
+        font-size: 3.3rem;
+        text-align: center;
+        background-color: black;
+        
+    }
+
+    nav {
+        background-color: aqua;
+    }
+}

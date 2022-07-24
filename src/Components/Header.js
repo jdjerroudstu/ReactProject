@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../Styles/Header.css'
 
 const Header = () => {
     return (
@@ -18,7 +19,8 @@ const Header = () => {
                 </ul>
             </nav>
 
-            <h1>Votre bibliothèque</h1>
+            <h1>Trouvez tous les films de votre choix</h1>
+            <h2>Nouveaux films, anciens, classiques ...</h2>
             
         </div>
     );
