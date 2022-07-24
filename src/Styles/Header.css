@@ -22,6 +22,12 @@ nav {
 
 ul {
     display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow:hidden ;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+    
 }
 
 a {
@@ -31,6 +37,8 @@ a {
     width: 102px;
     text-align: center;
     margin-right: 5px;
+    float: none;
+    
     
 }
 
