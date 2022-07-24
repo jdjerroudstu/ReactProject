@@ -1,3 +1,8 @@
 .home-page{
-    background-color: rgb(2, 41, 92);    
+    background-color: rgb(7, 37, 77);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
 }
